@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  api_service:
+    image: "api-creation:latest"
+    container_name: api-creation
+    ports:
+      - "8000:8000"  # Default RabbitMQ port for messaging
+
